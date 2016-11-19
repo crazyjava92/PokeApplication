@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PokeApplication</string>
+    <string name="lblpassword">Contraseña</string>
+    <string name="lblusuario">Usuario</string>
+
+
 </resources>

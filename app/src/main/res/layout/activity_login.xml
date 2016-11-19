@@ -10,4 +10,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.crazyjava.pokeapplication.Login">
 
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/lblusuario"
+        android:layout_width="wrap_content"
+        android:text="@string/lblusuario" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsuario"
+        android:ems="10"
+        android:layout_below="@+id/lblusuario" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblpassword"
+        android:layout_below="@id/txtUsuario"
+        android:text="@string/lblpassword"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpassword"
+        android:ems="10"
+        android:layout_below="@+id/lblpassword" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpassword"
+        android:id="@+id/lblErrorLogin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblErrorLogin"
+        android:id="@+id/btnEntrar"
+        android:text="Entrar" />
+
 </RelativeLayout>
