@@ -27,7 +27,7 @@ public class User extends SQLiteOpenHelper
     @Override
     public void onUpgrade(SQLiteDatabase bbdd, int versionantigua, int versionnueva) {
 // TODO Auto-generated method stub
-        bbdd.execSQL("DROP TABLE IF EXISTS User");
+        bbdd.execSQL("DROP TABLE IF EXISTS User ");
         bbdd.execSQL(creacion);
     }
 }
